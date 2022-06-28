@@ -48,8 +48,10 @@ Text values must be encoded to ensure correct XML, ie. HTML or reserved characte
 Numerical values must be formatted in invariant culture. No thousand separators and "." as decimal separator.
 Date values must be formatted as ISO 8601: YYYY-MM-DD.
 Boolean values must be specified as 1 or 0.
+
 `<root><htmlvalue>value &lt;with html&gt;</htmlvalue><anotherfield>1</anotherfield></root>`
-Misc JSON
+
+**Misc JSON**
 
 See Misc XML, but formatted as JSON.
 
