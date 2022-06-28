@@ -5,7 +5,7 @@ The canonical domain for you application, ie www.natcheurope.com or shop.natcheu
 
 Use a single C-name record to point to the hostname you received from Natch, ie lb00.natchcloud.com. Make sure you don't have a duplicate entry as an A-record.
 
-![This is an image](C:\Users\Thomas.Vermeulen\OneDrive - E.S.C. BV\Documenten\GitHub\natchsupport.github.io)
+![This is an image](\cname_combell.png)
 
 
 
