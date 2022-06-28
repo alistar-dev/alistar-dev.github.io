@@ -20,7 +20,7 @@ A naked domain is one without www, ie natcheurope.com. Depending on the option y
 Does your registrar support web forwarding?
 Configure the web forward to redirect to your canonical domain (ie. www.natcheurope.com). Make sure the redirect is set to a HTTPS address and Cloaking is not enabled.
 
-web forwarding   my combell
+![This is an image](\webforwarding_mycombell.png)
 
 Does your registrar not support web forwarding?
 Consider moving to a registrar that supports web forwarding, like Combell.
