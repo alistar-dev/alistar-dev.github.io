@@ -63,12 +63,12 @@ Incremental or full delivery flag, using one of these 2 values: incr, full. (not
 ## INCREMENTAL / FULL DELIVERY
 The files can be processed as an incremental delivery or as a full delivery.
 
-*Incremental*
+**Incremental**
 These files are small and contain only changes since the previous delivery of the entity.
 Processing is fast and is possible during business hours.
 Only the records in the file are inserted, updated or deleted.
 
-*Full delivery*
+**Full delivery**
 These files contain all the data of the entity.
 Processing may be slow and is only available during off-peak hours.
 Live data is replaced by the records in the file. This will result in a delete of existing records that were not supplied in the file.
@@ -79,13 +79,13 @@ Incremental and full delivery may be mixed for an entity. Ie. A full delivery du
 
 ## DATA
 
-*Fields*
+**Fields**
 Every entity has it own set of predefined fields, which are documented per entity in their file definition. But there are some common fields that will be found in multiple files. Check the Common Fields page for more information.
 
-*Main file*
+**Main file**
 Contains records per entity (ie. Product, Category), or link between entities (ie. The many-to-many category-product combination).
 
-*Optional child file*
+**Optional child file**
 Contains child records of the parent. This is a one-to-many relation. Ie. 1 customer can have multiple phone numbers.
 
 ## DATA TYPES
