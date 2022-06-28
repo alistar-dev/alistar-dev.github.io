@@ -102,7 +102,7 @@ Latitude and longitude of a location.
 ## About unique keys - code fields
 If master data does not have a unique key or the key consists of multiple fields, a single key must be created by joining fields together to create a unique key. To ensure a unique key is created out of multiple fields, a common technique is to use a separator between the fields, ie. pipe symbol (ASCII 124).
 
-An example for a shipping address of a customer. The key for the customer is 'CC654'. The shipping address does not have a unique key, but is unique for the customer as '001'. The shipping address key would be 'CC654|001'.
+An example for a shipping address of a customer. The key for the customer is 'CC654'. The shipping address does not have a unique key, but is unique for the customer as '001'. The shipping address key would be 'CC654 | 001'.
 
 
 
