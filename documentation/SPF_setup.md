@@ -8,7 +8,6 @@ Use a single C-name record to point to the hostname you received from Natch, ie 
 ![This is an image](\cname_combell.png)
 
 
-
 A TTL (time to live) value of 300 seconds is recommended.
 
 
