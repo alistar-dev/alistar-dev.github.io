@@ -20,18 +20,18 @@ NatchOS offers an out-of-the-box import for plain text files.
 ## FILE REQUIREMENTS
 The files must match the following criteria:
 
-Flat file in TXT file type
-Single entity per file, optional extra file for child entities (ie. Product and product translations)
-Header record is required, even if there is no data
-Child files are required, with header record, even if there is no data
-UTF8 encoding
-Field separator must be used, no fixed length fields
-Numeric values must be consistently formatted in the same culture
-Date values must be formatted as YYYYMMDD, ie. 25th of May 1977 is 19770525 
-Time values must be formatted as hh:mm:ss, ie. 13:05:00
-Use a text qualifier
-Required fields must be supplied or a default value must be configured
-May not contain blank lines, except for the last line 
+- Flat file in TXT file type
+- Single entity per file, optional extra file for child entities (ie. Product and product translations)
+- Header record is required, even if there is no data
+- Child files are required, with header record, even if there is no data
+- UTF8 encoding
+- Field separator must be used, no fixed length fields
+- Numeric values must be consistently formatted in the same culture
+- Date values must be formatted as YYYYMMDD, ie. 25th of May 1977 is 19770525 
+- Time values must be formatted as hh:mm:ss, ie. 13:05:00
+- Use a text qualifier
+- Required fields must be supplied or a default value must be configured
+- May not contain blank lines, except for the last line
 
 ## FILE LAYOUT GUIDELINES
 These guidelines are highly recommended:
