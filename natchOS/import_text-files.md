@@ -83,7 +83,7 @@ Incremental and full delivery may be mixed for an entity. Ie. A full delivery du
 
 **Fields**
 
-Every entity has it own set of predefined fields, which are documented per entity in their file definition. But there are some **common fields** that will be found in multiple files. [Check the Common Fields page for more information.](./common_fields)
+Every entity has it own set of predefined fields, which are documented per entity in their file definition. But there are some **common fields** that will be found in multiple files. [Check the Common Fields page for more information.](./common_fields.md)
 
 **Main file**
 
