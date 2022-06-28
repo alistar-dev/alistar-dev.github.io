@@ -5,7 +5,7 @@ The canonical domain for you application, ie www.natcheurope.com or shop.natcheu
 
 Use a single C-name record to point to the hostname you received from Natch, ie lb00.natchcloud.com. Make sure you don't have a duplicate entry as an A-record.
 
-![This is an image](\cname_combell.png)
+![This is an image](/cname_combell.png)
 
 
 A TTL (time to live) value of 300 seconds is recommended.
@@ -19,7 +19,7 @@ A naked domain is one without www, ie natcheurope.com. Depending on the option y
 Does your registrar support web forwarding?
 Configure the web forward to redirect to your canonical domain (ie. www.natcheurope.com). Make sure the redirect is set to a HTTPS address and Cloaking is not enabled.
 
-![This is an image](\webforwarding_mycombell.png)
+![This is an image](/webforwarding_mycombell.png)
 
 Does your registrar not support web forwarding?
 Consider moving to a registrar that supports web forwarding, like Combell.
