@@ -1,7 +1,7 @@
 theme: jekyll-theme-cayman
 
 #Setup
-title: Natch support knowledge base
+title: [Natch support knowledge base]
 description:
 baseurl: ""
 paginate:
