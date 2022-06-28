@@ -36,13 +36,13 @@ The files must match the following criteria:
 ## FILE LAYOUT GUIDELINES
 These guidelines are highly recommended:
 
-File compressed into ZIP
-Child file should be zipped together with parent file - this ensures delivery of both files at the same time
-Zip files may be password protected. The password length must be between 8 and 1000 characters. Supported encryptions are ZipCrypto and AES-256.
-Field delimiter is TAB (ASCII 9)
-Text qualifier is double quotes (ASCII 34)
-Use invariant culture (LCID 127) for numeric values, for example 3.1415 for Pi
-Each record should contain the same number of fields
+- File compressed into ZIP
+  - Child file should be zipped together with parent file - this ensures delivery of both files at the same time
+  - Zip files may be password protected. The password length must be between 8 and 1000 characters. Supported encryptions are ZipCrypto and AES-256.
+- Field delimiter is TAB (ASCII 9)
+- Text qualifier is double quotes (ASCII 34)
+- Use invariant culture (LCID 127) for numeric values, for example 3.1415 for Pi
+- Each record should contain the same number of fields
 
 ## FILE NAMING
 We have a naming convention for files, that consists of 3 parts, that are joined by an underscore.
@@ -55,7 +55,9 @@ Entity name (either predefined or custom)
 Incremental or full delivery flag, using one of these 2 values: incr, full. (not for all projects)
 
 => 20220407123059_customer_full.txt
+
 => 22040712301122_product_incr.txt
+
 => 000000022_product_full.txt and 000000022_productml_full.txt zipped into 000000022_product_full.zip
 
 ## INCREMENTAL / FULL DELIVERY
