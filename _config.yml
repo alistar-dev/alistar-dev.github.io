@@ -1,15 +1,6 @@
+title: 
+description: Useful articles about your Natch application
+show_downloads: false
+google_analytics: natch support knowledge base 
 theme: jekyll-theme-cayman
 
-#Setup
-title: [Natch support knowledge base]
-description:
-baseurl: ""
-paginate:
-values:
-  layout:
-  
-# Contact
-author:
-  name: Natch support
-  url: https://esc.be/support/
-  baseurl: 
