@@ -1,3 +1,3 @@
 # Articles
 
-[Multilang labels aanpassen](/multilang_labels)
+[*Multilang labels aanpassen*](/multilang_labels)
