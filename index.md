@@ -1,20 +1,14 @@
----
-layout: default
----
-
 # Welcome
-
-![This is an image](https://natcheurope.com/wp-content/uploads/2021/03/Natch-Logo-RGB.svg)
 
 ## Categoriën
 
 ### NatchOS
-[klik hier](/natchOS)
+[*klik hier*](/natchOS)
 
 ### Documentation
-[klik hier](/documentation)
+[*klik hier*](/documentation)
 
 ### NatchCMS
-[klik hier](/natchCMS)
+[*klik hier*](/natchCMS)
 
 
