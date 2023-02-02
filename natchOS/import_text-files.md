@@ -99,7 +99,7 @@ Contains child records of the parent. This is a one-to-many relation. Ie. 1 cust
 - Number / int / decimal: integer or decimal in invariant culture
 - Bool(ean) / bit: 0 or 1
 - Date: YYYYMMDD
-- XML: Fields/nodes must be placed within a single parent node.
+- XML: Fields/nodes must be placed within a single parent node. _XML fields are being replaced by JSON fields._
 - JSON: Json representation of data
 An example with headers
 
