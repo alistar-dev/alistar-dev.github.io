@@ -1,4 +1,5 @@
 # Import - Text Files
+
 NatchOS offers an out-of-the-box import for plain text files.
 
 ## TABLE OF CONTENTS
@@ -18,6 +19,7 @@ NatchOS offers an out-of-the-box import for plain text files.
 - ENTITIES
 
 ## FILE REQUIREMENTS
+
 The files must match the following criteria:
 
 - Flat file in TXT file type
@@ -27,13 +29,14 @@ The files must match the following criteria:
 - UTF8 encoding
 - Field separator must be used, no fixed length fields
 - Numeric values must be consistently formatted in the same culture
-- Date values must be formatted as YYYYMMDD, ie. 25th of May 1977 is 19770525 
+- Date values must be formatted as YYYYMMDD, ie. 25th of May 1977 is 19770525
 - Time values must be formatted as hh:mm:ss, ie. 13:05:00
 - Use a text qualifier
 - Required fields must be supplied or a default value must be configured
 - May not contain blank lines, except for the last line
 
 ## FILE LAYOUT GUIDELINES
+
 These guidelines are highly recommended:
 
 - File compressed into ZIP
@@ -45,6 +48,7 @@ These guidelines are highly recommended:
 - Each record should contain the same number of fields
 
 ## FILE NAMING
+
 We have a naming convention for files, that consists of 3 parts, that are joined by an underscore.
 
 9 or 14 digits for the ID of the entity
@@ -61,6 +65,7 @@ Incremental or full delivery flag, using one of these 2 values: incr, full. (not
 => 000000022_product_full.txt and 000000022_productml_full.txt zipped into 000000022_product_full.zip
 
 ## INCREMENTAL / FULL DELIVERY
+
 The files can be processed as an incremental delivery or as a full delivery.
 
 **Incremental**
@@ -99,17 +104,17 @@ Contains child records of the parent. This is a one-to-many relation. Ie. 1 cust
 - Number / int / decimal: integer or decimal in invariant culture
 - Bool(ean) / bit: 0 or 1
 - Date: YYYYMMDD
-- XML: Fields/nodes must be placed within a single parent node. _XML fields are being replaced by JSON fields._
+- XML: Fields/nodes must be placed within a single parent node. XML declaration is not allowed. _XML fields are being replaced by JSON fields._
 - JSON: Json representation of data
-An example with headers
+  An example with headers
 
 `"Code"    "Name"    "Boolean"    "Date"    "Misc"
 "ent001"    "name ""in quotes"" here"    1    "20201231"    "<root><value>some value</value><num>5</num></root>"`
 
-
 ## METADATA
+
 Data that is stored in NatchOS and managed by Natch is called metadata. Contact us for more information.
 
-
 ## ENTITIES
+
 Check your Admin Platform to see the configured entities with details about the file.
